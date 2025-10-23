@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router";
-import RootLayout from "../layouts/Rootlayout";
 import Home from "../Pages/Home/Home";
 import Register from "../Pages/Register/Register";
 import Login from "../Pages/Login/Login";
@@ -16,6 +15,7 @@ import PrivateRoute from "../contexts/AuthContext/PrivateRoute";
 import UpdatePackage from "../Pages/UpdatePackage/UpdatePackage";
 import PrivacyPolicy from "../Pages/PrivacyPolicy/PrivacyPolicy";
 import TermsandConditions from "../Pages/TermsandConditions/TermsandConditions";
+import RootLayout from "../layouts/RootLayout";
 
 const router = createBrowserRouter([
   {
