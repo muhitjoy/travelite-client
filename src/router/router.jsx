@@ -54,15 +54,27 @@ const router = createBrowserRouter([
       },
       {
         path: "my-bookings",
-        Component: MyBookings,
+        element: (
+          <PrivateRoute>
+            <MyBookings></MyBookings>
+          </PrivateRoute>
+        ),
       },
       {
         path: "add-package",
-        Component: AddPackage,
+        element: (
+          <PrivateRoute>
+            <AddPackage></AddPackage>
+          </PrivateRoute>
+        ),
       },
       {
         path: "manage-my-package",
-        Component: ManageMyPackage,
+        element: (
+          <PrivateRoute>
+            <ManageMyPackage></ManageMyPackage>
+          </PrivateRoute>
+        ),
       },
       {
         path: "updatePackage/:id",
@@ -82,13 +94,13 @@ const router = createBrowserRouter([
         element: <Login></Login>,
       },
       {
-        path: 'privacy-policy',
-        Component: PrivacyPolicy
+        path: "privacy-policy",
+        Component: PrivacyPolicy,
       },
       {
-        path: 'terms-conditions',
-        Component: TermsandConditions
-      }
+        path: "terms-conditions",
+        Component: TermsandConditions,
+      },
     ],
   },
   {

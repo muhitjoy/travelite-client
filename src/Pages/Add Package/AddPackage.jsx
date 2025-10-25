@@ -41,7 +41,7 @@ const AddPackage = () => {
 
   
 
-    console.log("New Tour Package:", newTour);
+    // console.log("New Tour Package:", newTour);
   };
 
   return (

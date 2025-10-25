@@ -46,7 +46,7 @@ const TravelConnection = () => {
               Have Fun With Us!
             </h3>
             <a
-              href="#"
+              href="/all-packages"
                className="relative text-blue-600 font-medium inline-flex items-center gap-1
              after:content-[''] after:absolute after:left-0 after:-bottom-0.5 
              after:w-0 after:h-[2px] after:bg-blue-600 after:transition-all 
