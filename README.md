@@ -10,7 +10,7 @@ Welcome to **Travelite** — a modern and responsive **Tour Package Booking Mana
 ## 🌐 Live Demo
 
 🔗 **Client:** https://travelite-drab.vercel.app/  
-🔗 **Server API:** https://your-server-url.vercel.app](#)](https://tour-package-booking-server-peach.vercel.app/)
+🔗 **Server API:** https://tour-package-booking-server-peach.vercel.app/
 
 ---
 
