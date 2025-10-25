@@ -17,7 +17,7 @@ const FeaturedPackageCard = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:3000/featured-tours")
+    fetch(`${import.meta.env.VITE_API_URL}/featured-tours`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
